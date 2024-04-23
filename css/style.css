@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.global{
+    background-color:rgb(125, 128, 129);
+}
 /*  header css */
 .top{
     background: white;
@@ -12,4 +15,22 @@
     display: inline-block;
     vertical-align: 12px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* prima sezione */
+.box{
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding-left: 10%;
+}
+.first button{
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 3px;
+    margin: 5px;
+}
+.first button:hover{
+    background-color: rgb(71, 173, 241);
+
 }
