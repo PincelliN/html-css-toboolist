@@ -7,27 +7,69 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- contenitore globale -->
-    <div class="global">
-      <!-- titolo e immagine -->
-      <header class="top">
-        <img src="img/Logo.png" alt="Boolean logo" />
-        <h1>Toboolist</h1>
-      </header>
-      <main>
-        <!-- butto prima sezione -->
-        <section class="first box">
-          <button>Add Task</button>
-          <button>Add Section</button>
-        </section>
-        <section class="second box">
-            <!-- prima lista -->
+   <!-- titolo e immagine -->
+    <header class="top">
+      <img src="img/Logo.png" alt="Boolean logo" />
+      <h1>Toboolist</h1>
+    </header>
+    <main>
+      <!-- butto prima sezione -->
+      <section class="first box">
+        <button>Add Task</button>
+        <button>Add Section</button>
+      </section>
+      <div class="second box">
+        <!-- prima lista -->
+        <section>
           <ul>
             New Task
-            <li>Quarterly Newsletter <span class="check edit">Editorial</span></li>
+            <li>
+              Quarterly Newsletter <span class="check edit">Editorial</span>
+            </li>
           </ul>
         </section>
-      </main>
-    </div>
+        <section>
+          <!-- seconda lista -->
+          <ul>
+            Today
+            <li>
+              Recruiting blog post
+              <span class="check edit">Editorial</span>
+            </li>
+            <li>
+              Mobile app launch
+              <span class="check q">Q1 Goals</span>
+            </li>
+            <li class="fail">
+              Interview John H.
+              <span class="check rec">Recruiting</span>
+            </li>
+            <li>
+              Summit update to mobile storefronts
+              <span class="check mob">Mobile</span>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <!-- terza lista -->
+          <ul>
+            Upcoming
+            <li class="fail"> Schedule meeting with Alex</li>
+            <li>
+              Homepage refresh
+              <span class="check web">Webside</span>
+            </li>
+            <li>
+              Onboard new Sales team members
+              <span class="check sale">Sales</span>
+            </li>
+            <li>
+              Review editorial calendar
+              <span class="check edit">Editorial</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
   </body>
 </html>

@@ -4,16 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-.global {
-  background-color: rgb(125, 128, 129);
+body{
+  background-color: rgb(125, 128, 129)
 }
 /*  header css */
 .top {
   background: white;
+  padding: 5px 30px;
 }
 .top h1 {
   display: inline-block;
-  vertical-align: 12px;
+  vertical-align: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* prima sezione */
@@ -21,7 +22,7 @@
 .box {
   width: 80%;
   background-color: white;
-  padding-left: 10%;
+  padding: 20px;
   margin: 5px auto;
 }
 .first {
@@ -31,6 +32,7 @@
   color: gray;
   background-color: white;
   border: 1px solid gray;
+  border-radius: 10px;
   padding: 3px;
   margin: 5px 0px;
 }
@@ -41,10 +43,13 @@
 .second ul{
     list-style: none;
     font-weight: bolder;
-     padding-top: 10px;
+    padding-top: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .second li{
     font-weight: lighter;
+    margin: 10px auto;
 }
 li::before{
     content: "\2713";
@@ -66,7 +71,32 @@ ul::before{
     font-size: x-small;
     padding: 4px;
     color: white;
+    margin-left: 5px;
 }
 .edit{
     background-color:rgb(71, 173, 241);
+}
+.fail::before{
+    content: "\00d7";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: xx-small;
+    padding: 3px;
+    margin-right: 3px;   
+}
+.q{
+    background-color: blueviolet;
+}
+.rec{
+    background-color:rgb(100, 192, 169) ;
+}
+.mob{
+    background-color:rgb(242, 158, 51) ;
+}
+.web{
+    background-color:rgb(216, 99, 161) ;
+}
+.sale{
+    background-color:rgb(176, 201, 37) ;
 }
