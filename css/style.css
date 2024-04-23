@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: rgb(125, 128, 129)
+body {
+  background-color: rgb(125, 128, 129);
 }
 /*  header css */
 .top {
@@ -40,63 +40,100 @@ body{
   background-color: rgb(71, 173, 241);
 }
 /* seconda sezione */
-.second ul{
-    list-style: none;
-    font-weight: bolder;
-    padding-top: 10px;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.second h2{
+  font-weight: bolder;
+  padding-top: 10px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.second li{
-    font-weight: lighter;
-    margin: 10px auto;
+.second ul {
+  list-style: none;  
 }
-li::before{
-    content: "\2713";
-    border: 1px solid green;
-    color: green;
-    border-radius: 50%;
-    font-size: xx-small;
-    padding: 3px;
-    margin-right: 3px;  
+.second li {
+  font-weight: lighter;
+  margin: 10px auto;
 }
-ul::before{
-    content: "\25BC";
-    font-size: x-small;
+
+.second h2::before {
+  content: "\25BC";
+  font-size: x-small;
 }
-/* regole generali check */
-.check{
-    border: 1px solid;
-    border-radius: 30% ;
-    font-size: x-small;
-    padding: 4px;
-    color: white;
-    margin-left: 5px;
+/* regole generali */
+li::before {
+  content: "\2713";
+  border: 1px solid green;
+  color: green;
+  border-radius: 50%;
+  font-size: xx-small;
+  padding: 3px;
+  margin-right: 3px;
 }
-.edit{
-    background-color:rgb(71, 173, 241);
+.fail::before {
+  content: "\00d7";
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  font-size: xx-small;
+  padding: 3px;
+  margin-right: 3px;
 }
-.fail::before{
-    content: "\00d7";
-    color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    font-size: xx-small;
-    padding: 3px;
-    margin-right: 3px;   
+.edit::after {
+  border: 1px solid;
+  border-radius: 30%;
+  font-size: x-small;
+  padding: 4px;
+  color: white;
+  margin-left: 5px;
+  background-color: rgb(71, 173, 241);
+  content: "Editorial";
 }
-.q{
-    background-color: blueviolet;
+.goal::after {
+  border: 1px solid;
+  border-radius: 30%;
+  font-size: x-small;
+  padding: 4px;
+  color: white;
+  margin-left: 5px;
+  background-color: blueviolet;
+  content: "Q1 Goals";
 }
-.rec{
-    background-color:rgb(100, 192, 169) ;
+.rec::after {
+  border: 1px solid;
+  border-radius: 30%;
+  font-size: x-small;
+  padding: 4px;
+  color: white;
+  margin-left: 5px;
+  background-color: rgb(100, 192, 169);
+  content: "Recruiting";
 }
-.mob{
-    background-color:rgb(242, 158, 51) ;
+.mob::after {
+  border: 1px solid;
+  border-radius: 30%;
+  font-size: x-small;
+  padding: 4px;
+  color: white;
+  margin-left: 5px;
+  background-color: rgb(242, 158, 51);
+  content: "Mobile";
 }
-.web{
-    background-color:rgb(216, 99, 161) ;
+.web::after {
+  border: 1px solid;
+  border-radius: 30%;
+  font-size: x-small;
+  padding: 4px;
+  color: white;
+  margin-left: 5px;
+  background-color: rgb(216, 99, 161);
+  content: "Webside";
 }
-.sale{
-    background-color:rgb(176, 201, 37) ;
+.sale::after {
+  border: 1px solid;
+  border-radius: 30%;
+  font-size: x-small;
+  padding: 4px;
+  color: white;
+  margin-left: 5px;
+  background-color: rgb(176, 201, 37);
+  content: "Sales";
 }
