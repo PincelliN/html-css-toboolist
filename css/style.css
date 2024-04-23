@@ -1,36 +1,72 @@
 /* css reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.global{
-    background-color:rgb(125, 128, 129);
+.global {
+  background-color: rgb(125, 128, 129);
 }
 /*  header css */
-.top{
-    background: white;
+.top {
+  background: white;
 }
 .top h1 {
-    display: inline-block;
-    vertical-align: 12px; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  vertical-align: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* prima sezione */
-.box{
-    width: 80%;
-    margin: 30px auto;
-    background-color: white;
-    padding-left: 10%;
-}
-.first button{
-    color: gray;
-    background-color: white;
-    border: 1px solid gray;
-    padding: 3px;
-    margin: 5px;
-}
-.first button:hover{
-    background-color: rgb(71, 173, 241);
 
+.box {
+  width: 80%;
+  background-color: white;
+  padding-left: 10%;
+  margin: 5px auto;
+}
+.first {
+  margin-top: 30px;
+}
+.first button {
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 3px;
+  margin: 5px 0px;
+}
+.first button:hover {
+  background-color: rgb(71, 173, 241);
+}
+/* seconda sezione */
+.second ul{
+    list-style: none;
+    font-weight: bolder;
+     padding-top: 10px;
+}
+.second li{
+    font-weight: lighter;
+}
+li::before{
+    content: "\2713";
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    font-size: xx-small;
+    padding: 3px;
+    margin-right: 3px;  
+}
+ul::before{
+    content: "\25BC";
+    font-size: x-small;
+}
+/* regole generali check */
+.check{
+    border: 1px solid;
+    border-radius: 30% ;
+    font-size: x-small;
+    padding: 4px;
+    color: white;
+}
+.edit{
+    background-color:rgb(71, 173, 241);
 }
