@@ -1,0 +1,15 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  header css */
+.top{
+    background: white;
+}
+.top h1 {
+    display: inline-block;
+    vertical-align: 12px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
